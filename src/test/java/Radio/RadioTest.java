@@ -53,7 +53,7 @@ public class RadioTest {
 
         assertEquals(0, radio.getCurrentStation());
     }
-P
+
     @Test
     public void shouldPrevStation() {
         radio.setCurrentStation(7);
