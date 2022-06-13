@@ -13,8 +13,9 @@ public class Radio {
 
     private int maxVolume = 100;
 
-    public Radio(int maxStation) {
-        this.maxStation = maxStation;
+    public Radio(int quantityStation) {
+
+        this.maxStation = quantityStation - 1;
     }
 
     public Radio() {
@@ -22,6 +23,7 @@ public class Radio {
     }
 
     public int getCurrentStation() {
+
         return currentStation;
     }
 
